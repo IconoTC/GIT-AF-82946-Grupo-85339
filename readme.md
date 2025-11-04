@@ -69,11 +69,10 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Cómo crearlos desde el CLI: `git config --global alias.ch checkout`
   - Crearlos editando el fichero de configuración: `git config --global -e`
 
-<!-- ### Día 2 (Martes 4 noviembre 2025)
-
-- ¿Problemas con la extensión Git Graph?
+### Día 2 (Martes 4 noviembre 2025)
 
 - Ficheros Markdown
+
   - Qué son
   - Sintaxis básica
   - Vista previa en VSC / GitHub / GitLab
@@ -95,6 +94,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Operaciones en la Staging Area (Index)
     - Añadir ficheros
     - Eliminar de la Staging Area (Index)
+    - Preparar un commit parcial: git add -p
   - Eliminar ficheros: git rm
     - Problemas con .gitignore
   - Cambiar nombre de ficheros: git mv
@@ -105,15 +105,17 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Advertencia
     - git command --amend
       - Ref logs
-    - git checkout
-    - git reset -->
+    - git checkout y git reset (introducción)
 
-<!-- ### Día 3 (Miércoles 5 noviembre 2025)
+<!--
+### Día 3 (Miércoles 5 noviembre 2025) - hasta las 11:00
 
 - Reescribiendo la historia (2)
+  - git checkout
+  - git reset
   - Evolución de git checkout: Nuevos comandos git switch y git restore
-  - git checkout a nivel de archivo (restore)
-  - git reset a nivel de archivo
+    - git checkout a nivel de archivo (restore)
+    - git reset a nivel de archivo
   - rebase interactivo
     - edit: modificando un commit
     - squash y fixup: fusionando commits
@@ -124,7 +126,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - git revert
   - git bisect
 
-- Trabajando en paralelo
+- Trabajando en paralelo (?)
 
   - Ramas
     - Crear y seleccionar
@@ -133,8 +135,10 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Borrar ramas
     - Mover y renombrar ramas
   - git stash
+ -->
 
-- [Descanso]
+<!--
+### Día 4 (Jueves 6 noviembre 2025)
 
 - Trabajando en paralelo (2)
 - - Combinación de ramas: Merge y Rebase
@@ -154,9 +158,9 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Tags anotadas y tags ligeros
   - Crear, listar, eliminar
 
-- Worktrees -->
-
-<!-- ### Día 4 (Jueves 6 noviembre 2025)
+- Worktrees
+-
+- [Descanso]
 
 - Repositorios remotos
 
@@ -179,8 +183,10 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Flujo de trabajo típico
     - Revisión de código
+-->
 
-- [Descanso]
+<!--
+### Día 5 (Viernes 7 noviembre 2025)
 
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Resolución de conflictos en remoto
@@ -198,6 +204,8 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 - Buenas prácticas
 
+(Probablemente haya que reducir esta parte)
+
 - GitHub
   - Hosting de Repositorios
     - repositorios públicos y privados; ramas y remotos: push y pull (v.s.)
@@ -212,9 +220,9 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Gists
   - GitHub CLI
   - GitHub Pages
-    - Configuración y uso -->
+    - Configuración y uso
 
-<!-- ### Día 5 (Jueves 7 noviembre 2025)
+- [Descanso]
 
 - GitHub (continuación)
   - GitHub Pages
@@ -228,20 +236,12 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Configuración y ejecución de un workflow
     - Ejemplo de CI (build y test) de una aplicación JS
 
-- [Descanso]
+(Probablemente haya que reducir esta parte)
 
 - Integración continua / Entrega continua (CI/CD)
   - GitHub Actions (continuación)
     - CD: despliegues
       - Secretos
       - Despliegue en GitHub Pages
-  - GitLab
-    - Similitudes y diferencias con GitHub. Merge Request
-    - CI/CD en GitLab
-      - Introducción a CI/CD
-      - Configuración de un pipeline: stages y jobs
-      - Artefactos
-      - Variables
-      - Despliegues: environments
-  - GitHub Actions (continuación)
-    - CD: despliegues de Astro en GitHub Pages -->
+    - CD: despliegues de Astro en GitHub Pages
+-->
