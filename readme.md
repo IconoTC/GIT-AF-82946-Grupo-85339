@@ -84,7 +84,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Creación y lectura de objetos
     - Creación del árbol de objetos en un primer commit
     - Modificación del árbol de objetos en commits sucesivos
-  - Referencias: heads, ramas (tags y remotes)
+  - Referencias: HEAD, ramas (tags y remotes)
   - Taller: creación de un repositorio git "a mano"
 
 - [Descanso]
@@ -96,7 +96,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Eliminar de la Staging Area (Index)
     - Preparar un commit parcial: git add -p
   - Eliminar ficheros: git rm
-    - Problemas con .gitignore
   - Cambiar nombre de ficheros: git mv
   - git blame
   - Recapitulando: Git básico
@@ -107,7 +106,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
       - Ref logs
     - git checkout y git reset (introducción)
 
-<!--
 ### Día 3 (Miércoles 5 noviembre 2025) - hasta las 11:00
 
 - Reescribiendo la historia (2)
@@ -121,10 +119,12 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - squash y fixup: fusionando commits
     - drop: eliminando un commit
 - Otros comandos
-
   - git clean
   - git revert
-  - git bisect
+
+<!--
+
+### Día 4 (Jueves 6 noviembre 2025)
 
 - Trabajando en paralelo (?)
 
@@ -135,13 +135,8 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Borrar ramas
     - Mover y renombrar ramas
   - git stash
- -->
 
-<!--
-### Día 4 (Jueves 6 noviembre 2025)
-
-- Trabajando en paralelo (2)
-- - Combinación de ramas: Merge y Rebase
+  - Combinación de ramas: Merge y Rebase
     - git merge
       - fast-forward
       - three-way merge
