@@ -122,8 +122,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - git clean
   - git revert
 
-<!--
-
 ### Día 4 (Jueves 6 noviembre 2025)
 
 - Trabajando en paralelo (?)
@@ -141,21 +139,24 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
       - fast-forward
       - three-way merge
     - git rebase
-  - Resolución de conflictos
+
+- [Descanso]
+
+  - Combinación de ramas (continuación)
+
+    - Resolución de conflictos
 
   - git cherry-pick
-  - Patches
-    - Creación
-    - Aplicación
+
+  - Preguntas: cherry-pick v. merge y modelos de branching
 
 - Etiquetas (tags)
 
   - Tags anotadas y tags ligeros
   - Crear, listar, eliminar
 
-- Worktrees
--
-- [Descanso]
+<!--
+### Día 5 (Viernes 7 noviembre 2025)
 
 - Repositorios remotos
 
@@ -178,10 +179,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Flujo de trabajo típico
     - Revisión de código
--->
-
-<!--
-### Día 5 (Viernes 7 noviembre 2025)
 
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Resolución de conflictos en remoto
@@ -216,8 +213,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - GitHub CLI
   - GitHub Pages
     - Configuración y uso
-
-- [Descanso]
 
 - GitHub (continuación)
   - GitHub Pages
