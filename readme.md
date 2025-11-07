@@ -124,7 +124,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 4 (Jueves 6 noviembre 2025)
 
-- Trabajando en paralelo (?)
+- Trabajando en paralelo
 
   - Ramas
     - Crear y seleccionar
@@ -137,7 +137,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Combinación de ramas: Merge y Rebase
     - git merge
       - fast-forward
-      - three-way merge
+      - three-way (ort) merge
     - git rebase
 
 - [Descanso]
@@ -155,7 +155,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Tags anotadas y tags ligeros
   - Crear, listar, eliminar
 
-<!--
 ### Día 5 (Viernes 7 noviembre 2025)
 
 - Repositorios remotos
@@ -180,6 +179,8 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Flujo de trabajo típico
     - Revisión de código
 
+- [Descanso]
+
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Resolución de conflictos en remoto
     - Buenas prácticas:
@@ -196,9 +197,16 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 - Buenas prácticas
 
-(Probablemente haya que reducir esta parte)
+- Configuración avanzada de git
+  - Hooks
+  - Husky (Hooks en JS)
 
-- GitHub
+<!--
+(No incluido en el curso actual, pero puede ser interesante para el alumno)
+
+- Sub-proyectos (submodules)
+
+- GitHub (comentario general)
   - Hosting de Repositorios
     - repositorios públicos y privados; ramas y remotos: push y pull (v.s.)
     - forks
@@ -212,26 +220,4 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Gists
   - GitHub CLI
   - GitHub Pages
-    - Configuración y uso
-
-- GitHub (continuación)
-  - GitHub Pages
-    - Práctica: publicar una web estática generada con Astro
-  - Releases
-- Integración continua / Entrega continua (CI/CD)
-
-  - GitHub Actions
-    - Introducción
-    - Workflow. Partes y sintaxis
-    - Configuración y ejecución de un workflow
-    - Ejemplo de CI (build y test) de una aplicación JS
-
-(Probablemente haya que reducir esta parte)
-
-- Integración continua / Entrega continua (CI/CD)
-  - GitHub Actions (continuación)
-    - CD: despliegues
-      - Secretos
-      - Despliegue en GitHub Pages
-    - CD: despliegues de Astro en GitHub Pages
 -->
